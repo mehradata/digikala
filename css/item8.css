@@ -1,0 +1,54 @@
+.item8{
+    width: 100%;
+    height: 346px;
+    margin-top: 40px;
+}
+.item8 .text{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    align-items: center;
+}
+.item8 .text .subtitle{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.item8 .text .link{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #19bfd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.item8 .text .link svg{
+    transform: translateY(-2px);
+}
+.item8 .containers{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.item8 .containers .container{
+    width: 325px;
+    height: 280px;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+}
+.item8 .containers .container img{
+    width: 323px;
+    height: 202px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.item8 .containers .container .parag{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0 16px;
+    margin: 8px 0 12px;
+}

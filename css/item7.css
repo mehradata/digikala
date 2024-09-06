@@ -1,0 +1,108 @@
+.item7 {
+  width: 100%;
+  height: 814px;
+  border-radius: 16px;
+  margin-top: 24px;
+  padding: 0 12px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #e0e0e2;
+}
+.item7 .text {
+  width: 100%;
+  height: 76px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item7 .text .subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.item7 .items {
+  padding: 12px 8px;
+  width: 218px;
+  height: 242px;
+  display: flex;
+  flex-flow: column;
+  border-bottom: 1px solid #e0e0e2;
+  border-left: 1px solid #e0e0e2;
+}
+.item7 .items:nth-of-type(6) {
+  border-left: none;
+}
+.item7 .items:nth-of-type(12) {
+  border-left: none;
+}
+.item7 .items:nth-of-type(18) {
+  border-left: none;
+}
+.item7 .items:nth-of-type(13) {
+  border-bottom: none;
+}
+.item7 .items:nth-of-type(14) {
+  border-bottom: none;
+}
+.item7 .items:nth-of-type(15) {
+  border-bottom: none;
+}
+.item7 .items:nth-of-type(16) {
+  border-bottom: none;
+}
+.item7 .items:nth-of-type(17) {
+  border-bottom: none;
+}
+.item7 .items:nth-of-type(18) {
+  border-bottom: none;
+}
+.item7 .items .img {
+  width: 201px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.item7 .items .img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.item7 .items .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.item7 .items .container .discount {
+  background-color: #d32d2d;
+  color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 34px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.item7 .items .container .discounted-price {
+  color: #3f4064;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item7 .items .container1 {
+  text-align: left;
+}
+.item7 .items .container1 .real-price {
+  color: #c0c2c5;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 15px;
+}

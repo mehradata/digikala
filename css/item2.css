@@ -1,0 +1,17 @@
+.item2 {
+  width: 100%;
+  height: 264px;
+  margin-top: 34px;
+}
+.item2 .items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.item2 .items img {
+  width: 660px;
+  height: 264px;
+  object-fit: cover;
+  border-radius: 16px;
+}
